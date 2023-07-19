@@ -1,0 +1,1906 @@
+(function (cjs, an) {
+
+var p; // shortcut to reference prototypes
+var lib={};var ss={};var img={};
+lib.ssMetadata = [
+		{name:"728x90_atlas_1", frames: [[0,0,728,90],[730,0,728,90],[1460,0,728,90],[2190,0,728,90],[2920,0,728,90],[0,92,728,90],[730,92,728,90],[1460,92,728,90],[2190,92,728,90],[2920,92,728,90],[0,184,728,90],[730,184,728,90],[1460,184,728,90],[2190,184,728,90],[2920,184,728,90],[0,276,728,90],[730,276,728,90],[1460,276,728,90],[2190,276,728,90],[2920,276,728,90],[0,368,728,90],[730,368,728,90],[1460,368,728,90],[2190,368,728,90],[2920,368,728,90],[0,460,728,90],[730,460,728,90],[1460,460,728,90],[2190,460,728,90],[2920,460,728,90],[0,552,728,90],[730,552,728,90],[1460,552,728,90],[2190,552,728,90],[2920,552,728,90],[0,644,728,90],[730,644,728,90],[1460,644,728,90],[2190,644,728,90],[2920,644,728,90],[0,736,728,90],[730,736,728,90],[1460,736,728,90],[2190,736,728,90],[2920,736,728,90],[0,828,728,90],[730,828,728,90],[1460,828,728,90],[2190,828,728,90],[2920,828,728,90],[0,920,728,90],[730,920,728,90],[1460,920,728,90],[2190,920,728,90],[2920,920,728,90],[0,1012,728,90],[730,1012,728,90],[1460,1012,728,90],[2190,1012,728,90],[2920,1012,728,90],[0,1104,728,90],[730,1104,728,90],[1460,1104,728,90],[2190,1104,728,90],[2920,1104,728,90],[0,1196,728,90],[730,1196,728,90],[1460,1196,728,90],[2190,1196,728,90],[2920,1196,728,90],[0,1288,728,90],[730,1288,728,90],[1460,1288,728,90],[2190,1288,728,90],[2920,1288,728,90],[0,1380,728,90],[730,1380,728,90],[1460,1380,728,90],[2190,1380,728,90],[2920,1380,728,90],[0,1472,728,90],[730,1472,728,90],[1460,1472,728,90],[2190,1472,728,90],[2920,1472,728,90],[0,1564,728,90],[730,1564,728,90],[1460,1564,728,90],[2190,1564,728,90],[2920,1564,728,90],[0,1656,728,90],[730,1656,728,90],[1460,1656,728,90],[2190,1656,728,90],[2920,1656,728,90],[0,1748,728,90],[730,1748,728,90],[1460,1748,728,90],[2190,1748,728,90],[2920,1748,728,90],[0,1840,728,90],[730,1840,728,90],[1460,1840,728,90],[2190,1840,728,90],[2920,1840,728,90],[0,1932,728,90],[730,1932,728,90],[1460,1932,728,90],[2190,1932,728,90],[2920,1932,728,90],[0,2024,728,90],[730,2024,728,90],[1460,2024,728,90],[2190,2024,728,90],[2920,2024,728,90],[0,2116,728,90],[730,2116,728,90],[1460,2116,728,90],[2190,2116,728,90],[2920,2116,728,90],[0,2208,728,90],[730,2208,728,90],[1460,2208,728,90],[2190,2208,728,90],[2920,2208,728,90],[0,2300,728,90],[730,2300,728,90],[1460,2300,728,90],[2190,2300,728,90],[2920,2300,728,90],[0,2392,728,90],[730,2392,728,90],[1460,2392,728,90],[2190,2392,728,90],[2920,2392,728,90],[0,2484,728,90],[730,2484,728,90],[1460,2484,728,90],[2190,2484,728,90],[2920,2484,728,90],[0,2576,728,90],[730,2576,728,90],[1460,2576,728,90],[2190,2576,728,90],[2920,2576,728,90],[0,2668,728,90],[730,2668,728,90],[1460,2668,728,90],[2190,2668,728,90],[2920,2668,728,90],[0,2760,728,90],[730,2760,728,90],[1460,2760,728,90],[2190,2760,728,90],[2920,2760,728,90],[0,2852,728,90],[730,2852,728,90],[1460,2852,728,90],[2190,2852,728,90],[2920,2852,728,90],[0,2944,728,90],[730,2944,728,90],[1460,2944,728,90],[2190,2944,728,90],[2920,2944,728,90],[0,3036,728,90],[730,3036,728,90],[1460,3036,728,90],[2190,3036,728,90],[2920,3036,728,90],[0,3128,728,90],[730,3128,728,90],[1460,3128,728,90],[2190,3128,728,90],[2920,3128,728,90],[0,3220,728,90],[730,3220,728,90],[1460,3220,728,90],[2190,3220,728,90],[2920,3220,728,90],[0,3312,728,90],[730,3312,728,90],[1460,3312,728,90],[2190,3312,728,90],[2920,3312,728,90],[0,3404,728,90],[730,3404,728,90],[1460,3404,728,90],[2190,3404,728,90],[2920,3404,728,90],[0,3496,728,90],[730,3496,728,90]]}
+];
+
+
+(lib.AnMovieClip = function(){
+	this.actionFrames = [];
+	this.ignorePause = false;
+	this.gotoAndPlay = function(positionOrLabel){
+		cjs.MovieClip.prototype.gotoAndPlay.call(this,positionOrLabel);
+	}
+	this.play = function(){
+		cjs.MovieClip.prototype.play.call(this);
+	}
+	this.gotoAndStop = function(positionOrLabel){
+		cjs.MovieClip.prototype.gotoAndStop.call(this,positionOrLabel);
+	}
+	this.stop = function(){
+		cjs.MovieClip.prototype.stop.call(this);
+	}
+}).prototype = p = new cjs.MovieClip();
+// symbols:
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00000 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00001 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00002 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00003 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00004 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00005 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00006 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00007 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00008 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00009 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(9);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00010 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(10);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00011 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(11);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00012 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(12);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00013 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(13);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00014 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(14);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00015 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(15);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00016 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(16);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00017 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(17);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00018 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(18);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00019 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(19);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00020 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(20);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00021 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(21);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00022 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(22);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00023 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(23);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00024 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(24);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00025 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(25);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00026 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(26);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00027 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(27);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00028 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(28);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00029 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(29);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00030 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(30);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00031 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(31);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00032 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(32);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00033 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(33);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00034 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(34);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00035 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(35);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00036 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(36);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00037 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(37);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00038 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(38);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00039 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(39);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00040 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(40);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00041 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(41);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00042 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(42);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00043 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(43);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00044 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(44);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00045 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(45);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00046 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(46);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00047 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(47);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00048 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(48);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00049 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(49);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00050 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(50);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00051 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(51);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00052 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(52);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00053 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(53);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00054 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(54);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00055 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(55);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00056 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(56);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00057 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(57);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00058 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(58);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00059 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(59);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00060 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(60);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00061 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(61);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00062 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(62);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00063 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(63);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00064 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(64);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00065 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(65);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00066 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(66);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00067 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(67);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00068 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(68);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00069 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(69);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00070 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(70);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00071 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(71);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00072 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(72);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00073 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(73);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00074 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(74);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00075 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(75);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00076 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(76);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00077 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(77);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00078 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(78);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00079 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(79);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00080 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(80);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00081 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(81);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00082 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(82);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00083 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(83);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00084 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(84);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00085 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(85);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00086 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(86);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00087 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(87);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00088 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(88);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00089 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(89);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00090 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(90);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00091 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(91);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00092 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(92);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00093 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(93);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00094 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(94);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00095 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(95);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00096 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(96);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00097 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(97);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00098 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(98);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00099 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(99);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00100 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(100);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00101 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(101);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00102 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(102);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00103 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(103);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00104 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(104);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00105 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(105);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00106 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(106);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00107 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(107);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00108 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(108);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00109 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(109);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00110 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(110);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00111 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(111);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00112 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(112);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00113 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(113);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00114 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(114);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00115 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(115);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00116 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(116);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00117 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(117);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00118 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(118);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00119 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(119);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00120 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(120);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00121 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(121);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00122 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(122);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00123 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(123);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00124 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(124);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00125 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(125);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00126 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(126);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00127 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(127);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00128 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(128);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00129 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(129);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00130 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(130);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00131 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(131);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00132 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(132);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00133 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(133);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00134 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(134);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00135 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(135);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00136 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(136);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00137 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(137);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00138 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(138);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00139 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(139);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00140 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(140);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00141 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(141);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00142 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(142);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00143 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(143);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00144 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(144);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00145 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(145);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00146 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(146);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00147 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(147);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00148 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(148);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00149 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(149);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00150 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(150);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00151 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(151);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00152 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(152);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00153 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(153);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00154 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(154);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00155 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(155);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00156 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(156);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00157 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(157);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00158 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(158);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00159 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(159);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00160 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(160);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00161 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(161);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00162 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(162);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00163 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(163);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00164 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(164);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00165 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(165);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00166 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(166);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00167 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(167);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00168 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(168);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00169 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(169);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00170 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(170);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00171 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(171);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00172 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(172);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00173 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(173);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00174 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(174);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00175 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(175);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00176 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(176);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00177 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(177);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00178 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(178);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00179 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(179);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00180 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(180);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00181 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(181);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00182 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(182);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00183 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(183);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00184 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(184);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00185 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(185);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00186 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(186);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00187 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(187);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00188 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(188);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00189 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(189);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00190 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(190);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ARABIA_INDIANS_ENG_728x90_00191 = function() {
+	this.initialize(ss["728x90_atlas_1"]);
+	this.gotoAndStop(191);
+}).prototype = p = new cjs.Sprite();
+
+
+
+// stage content:
+(lib.Untitled4 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = false; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.ARABIA_INDIANS_ENG_728x90_00000();
+
+	this.instance_1 = new lib.ARABIA_INDIANS_ENG_728x90_00001();
+
+	this.instance_2 = new lib.ARABIA_INDIANS_ENG_728x90_00002();
+
+	this.instance_3 = new lib.ARABIA_INDIANS_ENG_728x90_00003();
+
+	this.instance_4 = new lib.ARABIA_INDIANS_ENG_728x90_00004();
+
+	this.instance_5 = new lib.ARABIA_INDIANS_ENG_728x90_00005();
+
+	this.instance_6 = new lib.ARABIA_INDIANS_ENG_728x90_00006();
+
+	this.instance_7 = new lib.ARABIA_INDIANS_ENG_728x90_00007();
+
+	this.instance_8 = new lib.ARABIA_INDIANS_ENG_728x90_00008();
+
+	this.instance_9 = new lib.ARABIA_INDIANS_ENG_728x90_00009();
+
+	this.instance_10 = new lib.ARABIA_INDIANS_ENG_728x90_00010();
+
+	this.instance_11 = new lib.ARABIA_INDIANS_ENG_728x90_00011();
+
+	this.instance_12 = new lib.ARABIA_INDIANS_ENG_728x90_00012();
+
+	this.instance_13 = new lib.ARABIA_INDIANS_ENG_728x90_00013();
+
+	this.instance_14 = new lib.ARABIA_INDIANS_ENG_728x90_00014();
+
+	this.instance_15 = new lib.ARABIA_INDIANS_ENG_728x90_00015();
+
+	this.instance_16 = new lib.ARABIA_INDIANS_ENG_728x90_00016();
+
+	this.instance_17 = new lib.ARABIA_INDIANS_ENG_728x90_00017();
+
+	this.instance_18 = new lib.ARABIA_INDIANS_ENG_728x90_00018();
+
+	this.instance_19 = new lib.ARABIA_INDIANS_ENG_728x90_00019();
+
+	this.instance_20 = new lib.ARABIA_INDIANS_ENG_728x90_00020();
+
+	this.instance_21 = new lib.ARABIA_INDIANS_ENG_728x90_00021();
+
+	this.instance_22 = new lib.ARABIA_INDIANS_ENG_728x90_00022();
+
+	this.instance_23 = new lib.ARABIA_INDIANS_ENG_728x90_00023();
+
+	this.instance_24 = new lib.ARABIA_INDIANS_ENG_728x90_00024();
+
+	this.instance_25 = new lib.ARABIA_INDIANS_ENG_728x90_00025();
+
+	this.instance_26 = new lib.ARABIA_INDIANS_ENG_728x90_00026();
+
+	this.instance_27 = new lib.ARABIA_INDIANS_ENG_728x90_00027();
+
+	this.instance_28 = new lib.ARABIA_INDIANS_ENG_728x90_00028();
+
+	this.instance_29 = new lib.ARABIA_INDIANS_ENG_728x90_00029();
+
+	this.instance_30 = new lib.ARABIA_INDIANS_ENG_728x90_00030();
+
+	this.instance_31 = new lib.ARABIA_INDIANS_ENG_728x90_00031();
+
+	this.instance_32 = new lib.ARABIA_INDIANS_ENG_728x90_00032();
+
+	this.instance_33 = new lib.ARABIA_INDIANS_ENG_728x90_00033();
+
+	this.instance_34 = new lib.ARABIA_INDIANS_ENG_728x90_00034();
+
+	this.instance_35 = new lib.ARABIA_INDIANS_ENG_728x90_00035();
+
+	this.instance_36 = new lib.ARABIA_INDIANS_ENG_728x90_00036();
+
+	this.instance_37 = new lib.ARABIA_INDIANS_ENG_728x90_00037();
+
+	this.instance_38 = new lib.ARABIA_INDIANS_ENG_728x90_00038();
+
+	this.instance_39 = new lib.ARABIA_INDIANS_ENG_728x90_00039();
+
+	this.instance_40 = new lib.ARABIA_INDIANS_ENG_728x90_00040();
+
+	this.instance_41 = new lib.ARABIA_INDIANS_ENG_728x90_00041();
+
+	this.instance_42 = new lib.ARABIA_INDIANS_ENG_728x90_00042();
+
+	this.instance_43 = new lib.ARABIA_INDIANS_ENG_728x90_00043();
+
+	this.instance_44 = new lib.ARABIA_INDIANS_ENG_728x90_00044();
+
+	this.instance_45 = new lib.ARABIA_INDIANS_ENG_728x90_00045();
+
+	this.instance_46 = new lib.ARABIA_INDIANS_ENG_728x90_00046();
+
+	this.instance_47 = new lib.ARABIA_INDIANS_ENG_728x90_00047();
+
+	this.instance_48 = new lib.ARABIA_INDIANS_ENG_728x90_00048();
+
+	this.instance_49 = new lib.ARABIA_INDIANS_ENG_728x90_00049();
+
+	this.instance_50 = new lib.ARABIA_INDIANS_ENG_728x90_00050();
+
+	this.instance_51 = new lib.ARABIA_INDIANS_ENG_728x90_00051();
+
+	this.instance_52 = new lib.ARABIA_INDIANS_ENG_728x90_00052();
+
+	this.instance_53 = new lib.ARABIA_INDIANS_ENG_728x90_00053();
+
+	this.instance_54 = new lib.ARABIA_INDIANS_ENG_728x90_00054();
+
+	this.instance_55 = new lib.ARABIA_INDIANS_ENG_728x90_00055();
+
+	this.instance_56 = new lib.ARABIA_INDIANS_ENG_728x90_00056();
+
+	this.instance_57 = new lib.ARABIA_INDIANS_ENG_728x90_00057();
+
+	this.instance_58 = new lib.ARABIA_INDIANS_ENG_728x90_00058();
+
+	this.instance_59 = new lib.ARABIA_INDIANS_ENG_728x90_00059();
+
+	this.instance_60 = new lib.ARABIA_INDIANS_ENG_728x90_00060();
+
+	this.instance_61 = new lib.ARABIA_INDIANS_ENG_728x90_00061();
+
+	this.instance_62 = new lib.ARABIA_INDIANS_ENG_728x90_00062();
+
+	this.instance_63 = new lib.ARABIA_INDIANS_ENG_728x90_00063();
+
+	this.instance_64 = new lib.ARABIA_INDIANS_ENG_728x90_00064();
+
+	this.instance_65 = new lib.ARABIA_INDIANS_ENG_728x90_00065();
+
+	this.instance_66 = new lib.ARABIA_INDIANS_ENG_728x90_00066();
+
+	this.instance_67 = new lib.ARABIA_INDIANS_ENG_728x90_00067();
+
+	this.instance_68 = new lib.ARABIA_INDIANS_ENG_728x90_00068();
+
+	this.instance_69 = new lib.ARABIA_INDIANS_ENG_728x90_00069();
+
+	this.instance_70 = new lib.ARABIA_INDIANS_ENG_728x90_00070();
+
+	this.instance_71 = new lib.ARABIA_INDIANS_ENG_728x90_00071();
+
+	this.instance_72 = new lib.ARABIA_INDIANS_ENG_728x90_00072();
+
+	this.instance_73 = new lib.ARABIA_INDIANS_ENG_728x90_00073();
+
+	this.instance_74 = new lib.ARABIA_INDIANS_ENG_728x90_00074();
+
+	this.instance_75 = new lib.ARABIA_INDIANS_ENG_728x90_00075();
+
+	this.instance_76 = new lib.ARABIA_INDIANS_ENG_728x90_00076();
+
+	this.instance_77 = new lib.ARABIA_INDIANS_ENG_728x90_00077();
+
+	this.instance_78 = new lib.ARABIA_INDIANS_ENG_728x90_00078();
+
+	this.instance_79 = new lib.ARABIA_INDIANS_ENG_728x90_00079();
+
+	this.instance_80 = new lib.ARABIA_INDIANS_ENG_728x90_00080();
+
+	this.instance_81 = new lib.ARABIA_INDIANS_ENG_728x90_00081();
+
+	this.instance_82 = new lib.ARABIA_INDIANS_ENG_728x90_00082();
+
+	this.instance_83 = new lib.ARABIA_INDIANS_ENG_728x90_00083();
+
+	this.instance_84 = new lib.ARABIA_INDIANS_ENG_728x90_00084();
+
+	this.instance_85 = new lib.ARABIA_INDIANS_ENG_728x90_00085();
+
+	this.instance_86 = new lib.ARABIA_INDIANS_ENG_728x90_00086();
+
+	this.instance_87 = new lib.ARABIA_INDIANS_ENG_728x90_00087();
+
+	this.instance_88 = new lib.ARABIA_INDIANS_ENG_728x90_00088();
+
+	this.instance_89 = new lib.ARABIA_INDIANS_ENG_728x90_00089();
+
+	this.instance_90 = new lib.ARABIA_INDIANS_ENG_728x90_00090();
+
+	this.instance_91 = new lib.ARABIA_INDIANS_ENG_728x90_00091();
+
+	this.instance_92 = new lib.ARABIA_INDIANS_ENG_728x90_00092();
+
+	this.instance_93 = new lib.ARABIA_INDIANS_ENG_728x90_00093();
+
+	this.instance_94 = new lib.ARABIA_INDIANS_ENG_728x90_00094();
+
+	this.instance_95 = new lib.ARABIA_INDIANS_ENG_728x90_00095();
+
+	this.instance_96 = new lib.ARABIA_INDIANS_ENG_728x90_00096();
+
+	this.instance_97 = new lib.ARABIA_INDIANS_ENG_728x90_00097();
+
+	this.instance_98 = new lib.ARABIA_INDIANS_ENG_728x90_00098();
+
+	this.instance_99 = new lib.ARABIA_INDIANS_ENG_728x90_00099();
+
+	this.instance_100 = new lib.ARABIA_INDIANS_ENG_728x90_00100();
+
+	this.instance_101 = new lib.ARABIA_INDIANS_ENG_728x90_00101();
+
+	this.instance_102 = new lib.ARABIA_INDIANS_ENG_728x90_00102();
+
+	this.instance_103 = new lib.ARABIA_INDIANS_ENG_728x90_00103();
+
+	this.instance_104 = new lib.ARABIA_INDIANS_ENG_728x90_00104();
+
+	this.instance_105 = new lib.ARABIA_INDIANS_ENG_728x90_00105();
+
+	this.instance_106 = new lib.ARABIA_INDIANS_ENG_728x90_00106();
+
+	this.instance_107 = new lib.ARABIA_INDIANS_ENG_728x90_00107();
+
+	this.instance_108 = new lib.ARABIA_INDIANS_ENG_728x90_00108();
+
+	this.instance_109 = new lib.ARABIA_INDIANS_ENG_728x90_00109();
+
+	this.instance_110 = new lib.ARABIA_INDIANS_ENG_728x90_00110();
+
+	this.instance_111 = new lib.ARABIA_INDIANS_ENG_728x90_00111();
+
+	this.instance_112 = new lib.ARABIA_INDIANS_ENG_728x90_00112();
+
+	this.instance_113 = new lib.ARABIA_INDIANS_ENG_728x90_00113();
+
+	this.instance_114 = new lib.ARABIA_INDIANS_ENG_728x90_00114();
+
+	this.instance_115 = new lib.ARABIA_INDIANS_ENG_728x90_00115();
+
+	this.instance_116 = new lib.ARABIA_INDIANS_ENG_728x90_00116();
+
+	this.instance_117 = new lib.ARABIA_INDIANS_ENG_728x90_00117();
+
+	this.instance_118 = new lib.ARABIA_INDIANS_ENG_728x90_00118();
+
+	this.instance_119 = new lib.ARABIA_INDIANS_ENG_728x90_00119();
+
+	this.instance_120 = new lib.ARABIA_INDIANS_ENG_728x90_00120();
+
+	this.instance_121 = new lib.ARABIA_INDIANS_ENG_728x90_00121();
+
+	this.instance_122 = new lib.ARABIA_INDIANS_ENG_728x90_00122();
+
+	this.instance_123 = new lib.ARABIA_INDIANS_ENG_728x90_00123();
+
+	this.instance_124 = new lib.ARABIA_INDIANS_ENG_728x90_00124();
+
+	this.instance_125 = new lib.ARABIA_INDIANS_ENG_728x90_00125();
+
+	this.instance_126 = new lib.ARABIA_INDIANS_ENG_728x90_00126();
+
+	this.instance_127 = new lib.ARABIA_INDIANS_ENG_728x90_00127();
+
+	this.instance_128 = new lib.ARABIA_INDIANS_ENG_728x90_00128();
+
+	this.instance_129 = new lib.ARABIA_INDIANS_ENG_728x90_00129();
+
+	this.instance_130 = new lib.ARABIA_INDIANS_ENG_728x90_00130();
+
+	this.instance_131 = new lib.ARABIA_INDIANS_ENG_728x90_00131();
+
+	this.instance_132 = new lib.ARABIA_INDIANS_ENG_728x90_00132();
+
+	this.instance_133 = new lib.ARABIA_INDIANS_ENG_728x90_00133();
+
+	this.instance_134 = new lib.ARABIA_INDIANS_ENG_728x90_00134();
+
+	this.instance_135 = new lib.ARABIA_INDIANS_ENG_728x90_00135();
+
+	this.instance_136 = new lib.ARABIA_INDIANS_ENG_728x90_00136();
+
+	this.instance_137 = new lib.ARABIA_INDIANS_ENG_728x90_00137();
+
+	this.instance_138 = new lib.ARABIA_INDIANS_ENG_728x90_00138();
+
+	this.instance_139 = new lib.ARABIA_INDIANS_ENG_728x90_00139();
+
+	this.instance_140 = new lib.ARABIA_INDIANS_ENG_728x90_00140();
+
+	this.instance_141 = new lib.ARABIA_INDIANS_ENG_728x90_00141();
+
+	this.instance_142 = new lib.ARABIA_INDIANS_ENG_728x90_00142();
+
+	this.instance_143 = new lib.ARABIA_INDIANS_ENG_728x90_00143();
+
+	this.instance_144 = new lib.ARABIA_INDIANS_ENG_728x90_00144();
+
+	this.instance_145 = new lib.ARABIA_INDIANS_ENG_728x90_00145();
+
+	this.instance_146 = new lib.ARABIA_INDIANS_ENG_728x90_00146();
+
+	this.instance_147 = new lib.ARABIA_INDIANS_ENG_728x90_00147();
+
+	this.instance_148 = new lib.ARABIA_INDIANS_ENG_728x90_00148();
+
+	this.instance_149 = new lib.ARABIA_INDIANS_ENG_728x90_00149();
+
+	this.instance_150 = new lib.ARABIA_INDIANS_ENG_728x90_00150();
+
+	this.instance_151 = new lib.ARABIA_INDIANS_ENG_728x90_00151();
+
+	this.instance_152 = new lib.ARABIA_INDIANS_ENG_728x90_00152();
+
+	this.instance_153 = new lib.ARABIA_INDIANS_ENG_728x90_00153();
+
+	this.instance_154 = new lib.ARABIA_INDIANS_ENG_728x90_00154();
+
+	this.instance_155 = new lib.ARABIA_INDIANS_ENG_728x90_00155();
+
+	this.instance_156 = new lib.ARABIA_INDIANS_ENG_728x90_00156();
+
+	this.instance_157 = new lib.ARABIA_INDIANS_ENG_728x90_00157();
+
+	this.instance_158 = new lib.ARABIA_INDIANS_ENG_728x90_00158();
+
+	this.instance_159 = new lib.ARABIA_INDIANS_ENG_728x90_00159();
+
+	this.instance_160 = new lib.ARABIA_INDIANS_ENG_728x90_00160();
+
+	this.instance_161 = new lib.ARABIA_INDIANS_ENG_728x90_00161();
+
+	this.instance_162 = new lib.ARABIA_INDIANS_ENG_728x90_00162();
+
+	this.instance_163 = new lib.ARABIA_INDIANS_ENG_728x90_00163();
+
+	this.instance_164 = new lib.ARABIA_INDIANS_ENG_728x90_00164();
+
+	this.instance_165 = new lib.ARABIA_INDIANS_ENG_728x90_00165();
+
+	this.instance_166 = new lib.ARABIA_INDIANS_ENG_728x90_00166();
+
+	this.instance_167 = new lib.ARABIA_INDIANS_ENG_728x90_00167();
+
+	this.instance_168 = new lib.ARABIA_INDIANS_ENG_728x90_00168();
+
+	this.instance_169 = new lib.ARABIA_INDIANS_ENG_728x90_00169();
+
+	this.instance_170 = new lib.ARABIA_INDIANS_ENG_728x90_00170();
+
+	this.instance_171 = new lib.ARABIA_INDIANS_ENG_728x90_00171();
+
+	this.instance_172 = new lib.ARABIA_INDIANS_ENG_728x90_00172();
+
+	this.instance_173 = new lib.ARABIA_INDIANS_ENG_728x90_00173();
+
+	this.instance_174 = new lib.ARABIA_INDIANS_ENG_728x90_00174();
+
+	this.instance_175 = new lib.ARABIA_INDIANS_ENG_728x90_00175();
+
+	this.instance_176 = new lib.ARABIA_INDIANS_ENG_728x90_00176();
+
+	this.instance_177 = new lib.ARABIA_INDIANS_ENG_728x90_00177();
+
+	this.instance_178 = new lib.ARABIA_INDIANS_ENG_728x90_00178();
+
+	this.instance_179 = new lib.ARABIA_INDIANS_ENG_728x90_00179();
+
+	this.instance_180 = new lib.ARABIA_INDIANS_ENG_728x90_00180();
+
+	this.instance_181 = new lib.ARABIA_INDIANS_ENG_728x90_00181();
+
+	this.instance_182 = new lib.ARABIA_INDIANS_ENG_728x90_00182();
+
+	this.instance_183 = new lib.ARABIA_INDIANS_ENG_728x90_00183();
+
+	this.instance_184 = new lib.ARABIA_INDIANS_ENG_728x90_00184();
+
+	this.instance_185 = new lib.ARABIA_INDIANS_ENG_728x90_00185();
+
+	this.instance_186 = new lib.ARABIA_INDIANS_ENG_728x90_00186();
+
+	this.instance_187 = new lib.ARABIA_INDIANS_ENG_728x90_00187();
+
+	this.instance_188 = new lib.ARABIA_INDIANS_ENG_728x90_00188();
+
+	this.instance_189 = new lib.ARABIA_INDIANS_ENG_728x90_00189();
+
+	this.instance_190 = new lib.ARABIA_INDIANS_ENG_728x90_00190();
+
+	this.instance_191 = new lib.ARABIA_INDIANS_ENG_728x90_00191();
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_2}]},1).to({state:[{t:this.instance_3}]},1).to({state:[{t:this.instance_4}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_6}]},1).to({state:[{t:this.instance_7}]},1).to({state:[{t:this.instance_8}]},1).to({state:[{t:this.instance_9}]},1).to({state:[{t:this.instance_10}]},1).to({state:[{t:this.instance_11}]},1).to({state:[{t:this.instance_12}]},1).to({state:[{t:this.instance_13}]},1).to({state:[{t:this.instance_14}]},1).to({state:[{t:this.instance_15}]},1).to({state:[{t:this.instance_16}]},1).to({state:[{t:this.instance_17}]},1).to({state:[{t:this.instance_18}]},1).to({state:[{t:this.instance_19}]},1).to({state:[{t:this.instance_20}]},1).to({state:[{t:this.instance_21}]},1).to({state:[{t:this.instance_22}]},1).to({state:[{t:this.instance_23}]},1).to({state:[{t:this.instance_24}]},1).to({state:[{t:this.instance_25}]},1).to({state:[{t:this.instance_26}]},1).to({state:[{t:this.instance_27}]},1).to({state:[{t:this.instance_28}]},1).to({state:[{t:this.instance_29}]},1).to({state:[{t:this.instance_30}]},1).to({state:[{t:this.instance_31}]},1).to({state:[{t:this.instance_32}]},1).to({state:[{t:this.instance_33}]},1).to({state:[{t:this.instance_34}]},1).to({state:[{t:this.instance_35}]},1).to({state:[{t:this.instance_36}]},1).to({state:[{t:this.instance_37}]},1).to({state:[{t:this.instance_38}]},1).to({state:[{t:this.instance_39}]},1).to({state:[{t:this.instance_40}]},1).to({state:[{t:this.instance_41}]},1).to({state:[{t:this.instance_42}]},1).to({state:[{t:this.instance_43}]},1).to({state:[{t:this.instance_44}]},1).to({state:[{t:this.instance_45}]},1).to({state:[{t:this.instance_46}]},1).to({state:[{t:this.instance_47}]},1).to({state:[{t:this.instance_48}]},1).to({state:[{t:this.instance_49}]},1).to({state:[{t:this.instance_50}]},1).to({state:[{t:this.instance_51}]},1).to({state:[{t:this.instance_52}]},1).to({state:[{t:this.instance_53}]},1).to({state:[{t:this.instance_54}]},1).to({state:[{t:this.instance_55}]},1).to({state:[{t:this.instance_56}]},1).to({state:[{t:this.instance_57}]},1).to({state:[{t:this.instance_58}]},1).to({state:[{t:this.instance_59}]},1).to({state:[{t:this.instance_60}]},1).to({state:[{t:this.instance_61}]},1).to({state:[{t:this.instance_62}]},1).to({state:[{t:this.instance_63}]},1).to({state:[{t:this.instance_64}]},1).to({state:[{t:this.instance_65}]},1).to({state:[{t:this.instance_66}]},1).to({state:[{t:this.instance_67}]},1).to({state:[{t:this.instance_68}]},1).to({state:[{t:this.instance_69}]},1).to({state:[{t:this.instance_70}]},1).to({state:[{t:this.instance_71}]},1).to({state:[{t:this.instance_72}]},1).to({state:[{t:this.instance_73}]},1).to({state:[{t:this.instance_74}]},1).to({state:[{t:this.instance_75}]},1).to({state:[{t:this.instance_76}]},1).to({state:[{t:this.instance_77}]},1).to({state:[{t:this.instance_78}]},1).to({state:[{t:this.instance_79}]},1).to({state:[{t:this.instance_80}]},1).to({state:[{t:this.instance_81}]},1).to({state:[{t:this.instance_82}]},1).to({state:[{t:this.instance_83}]},1).to({state:[{t:this.instance_84}]},1).to({state:[{t:this.instance_85}]},1).to({state:[{t:this.instance_86}]},1).to({state:[{t:this.instance_87}]},1).to({state:[{t:this.instance_88}]},1).to({state:[{t:this.instance_89}]},1).to({state:[{t:this.instance_90}]},1).to({state:[{t:this.instance_91}]},1).to({state:[{t:this.instance_92}]},1).to({state:[{t:this.instance_93}]},1).to({state:[{t:this.instance_94}]},1).to({state:[{t:this.instance_95}]},1).to({state:[{t:this.instance_96}]},1).to({state:[{t:this.instance_97}]},1).to({state:[{t:this.instance_98}]},1).to({state:[{t:this.instance_99}]},1).to({state:[{t:this.instance_100}]},1).to({state:[{t:this.instance_101}]},1).to({state:[{t:this.instance_102}]},1).to({state:[{t:this.instance_103}]},1).to({state:[{t:this.instance_104}]},1).to({state:[{t:this.instance_105}]},1).to({state:[{t:this.instance_106}]},1).to({state:[{t:this.instance_107}]},1).to({state:[{t:this.instance_108}]},1).to({state:[{t:this.instance_109}]},1).to({state:[{t:this.instance_110}]},1).to({state:[{t:this.instance_111}]},1).to({state:[{t:this.instance_112}]},1).to({state:[{t:this.instance_113}]},1).to({state:[{t:this.instance_114}]},1).to({state:[{t:this.instance_115}]},1).to({state:[{t:this.instance_116}]},1).to({state:[{t:this.instance_117}]},1).to({state:[{t:this.instance_118}]},1).to({state:[{t:this.instance_119}]},1).to({state:[{t:this.instance_120}]},1).to({state:[{t:this.instance_121}]},1).to({state:[{t:this.instance_122}]},1).to({state:[{t:this.instance_123}]},1).to({state:[{t:this.instance_124}]},1).to({state:[{t:this.instance_125}]},1).to({state:[{t:this.instance_126}]},1).to({state:[{t:this.instance_127}]},1).to({state:[{t:this.instance_128}]},1).to({state:[{t:this.instance_129}]},1).to({state:[{t:this.instance_130}]},1).to({state:[{t:this.instance_131}]},1).to({state:[{t:this.instance_132}]},1).to({state:[{t:this.instance_133}]},1).to({state:[{t:this.instance_134}]},1).to({state:[{t:this.instance_135}]},1).to({state:[{t:this.instance_136}]},1).to({state:[{t:this.instance_137}]},1).to({state:[{t:this.instance_138}]},1).to({state:[{t:this.instance_139}]},1).to({state:[{t:this.instance_140}]},1).to({state:[{t:this.instance_141}]},1).to({state:[{t:this.instance_142}]},1).to({state:[{t:this.instance_143}]},1).to({state:[{t:this.instance_144}]},1).to({state:[{t:this.instance_145}]},1).to({state:[{t:this.instance_146}]},1).to({state:[{t:this.instance_147}]},1).to({state:[{t:this.instance_148}]},1).to({state:[{t:this.instance_149}]},1).to({state:[{t:this.instance_150}]},1).to({state:[{t:this.instance_151}]},1).to({state:[{t:this.instance_152}]},1).to({state:[{t:this.instance_153}]},1).to({state:[{t:this.instance_154}]},1).to({state:[{t:this.instance_155}]},1).to({state:[{t:this.instance_156}]},1).to({state:[{t:this.instance_157}]},1).to({state:[{t:this.instance_158}]},1).to({state:[{t:this.instance_159}]},1).to({state:[{t:this.instance_160}]},1).to({state:[{t:this.instance_161}]},1).to({state:[{t:this.instance_162}]},1).to({state:[{t:this.instance_163}]},1).to({state:[{t:this.instance_164}]},1).to({state:[{t:this.instance_165}]},1).to({state:[{t:this.instance_166}]},1).to({state:[{t:this.instance_167}]},1).to({state:[{t:this.instance_168}]},1).to({state:[{t:this.instance_169}]},1).to({state:[{t:this.instance_170}]},1).to({state:[{t:this.instance_171}]},1).to({state:[{t:this.instance_172}]},1).to({state:[{t:this.instance_173}]},1).to({state:[{t:this.instance_174}]},1).to({state:[{t:this.instance_175}]},1).to({state:[{t:this.instance_176}]},1).to({state:[{t:this.instance_177}]},1).to({state:[{t:this.instance_178}]},1).to({state:[{t:this.instance_179}]},1).to({state:[{t:this.instance_180}]},1).to({state:[{t:this.instance_181}]},1).to({state:[{t:this.instance_182}]},1).to({state:[{t:this.instance_183}]},1).to({state:[{t:this.instance_184}]},1).to({state:[{t:this.instance_185}]},1).to({state:[{t:this.instance_186}]},1).to({state:[{t:this.instance_187}]},1).to({state:[{t:this.instance_188}]},1).to({state:[{t:this.instance_189}]},1).to({state:[{t:this.instance_190}]},1).to({state:[{t:this.instance_191}]},1).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new lib.AnMovieClip();
+p.nominalBounds = new cjs.Rectangle(364,45,364,45);
+// library properties:
+lib.properties = {
+	id: 'E4FDB1F811494CD5929A4FA0391BD46E',
+	width: 728,
+	height: 90,
+	fps: 12,
+	color: "#040033",
+	opacity: 1.00,
+	manifest: [
+		{src:"images/728x90_atlas_1.jpg", id:"728x90_atlas_1"}
+	],
+	preloads: []
+};
+
+
+
+// bootstrap callback support:
+
+(lib.Stage = function(canvas) {
+	createjs.Stage.call(this, canvas);
+}).prototype = p = new createjs.Stage();
+
+p.setAutoPlay = function(autoPlay) {
+	this.tickEnabled = autoPlay;
+}
+p.play = function() { this.tickEnabled = true; this.getChildAt(0).gotoAndPlay(this.getTimelinePosition()) }
+p.stop = function(ms) { if(ms) this.seek(ms); this.tickEnabled = false; }
+p.seek = function(ms) { this.tickEnabled = true; this.getChildAt(0).gotoAndStop(lib.properties.fps * ms / 1000); }
+p.getDuration = function() { return this.getChildAt(0).totalFrames / lib.properties.fps * 1000; }
+
+p.getTimelinePosition = function() { return this.getChildAt(0).currentFrame / lib.properties.fps * 1000; }
+
+an.bootcompsLoaded = an.bootcompsLoaded || [];
+if(!an.bootstrapListeners) {
+	an.bootstrapListeners=[];
+}
+
+an.bootstrapCallback=function(fnCallback) {
+	an.bootstrapListeners.push(fnCallback);
+	if(an.bootcompsLoaded.length > 0) {
+		for(var i=0; i<an.bootcompsLoaded.length; ++i) {
+			fnCallback(an.bootcompsLoaded[i]);
+		}
+	}
+};
+
+an.compositions = an.compositions || {};
+an.compositions['E4FDB1F811494CD5929A4FA0391BD46E'] = {
+	getStage: function() { return exportRoot.stage; },
+	getLibrary: function() { return lib; },
+	getSpriteSheet: function() { return ss; },
+	getImages: function() { return img; }
+};
+
+an.compositionLoaded = function(id) {
+	an.bootcompsLoaded.push(id);
+	for(var j=0; j<an.bootstrapListeners.length; j++) {
+		an.bootstrapListeners[j](id);
+	}
+}
+
+an.getComposition = function(id) {
+	return an.compositions[id];
+}
+
+
+an.makeResponsive = function(isResp, respDim, isScale, scaleType, domContainers) {		
+	var lastW, lastH, lastS=1;		
+	window.addEventListener('resize', resizeCanvas);		
+	resizeCanvas();		
+	function resizeCanvas() {			
+		var w = lib.properties.width, h = lib.properties.height;			
+		var iw = window.innerWidth, ih=window.innerHeight;			
+		var pRatio = window.devicePixelRatio || 1, xRatio=iw/w, yRatio=ih/h, sRatio=1;			
+		if(isResp) {                
+			if((respDim=='width'&&lastW==iw) || (respDim=='height'&&lastH==ih)) {                    
+				sRatio = lastS;                
+			}				
+			else if(!isScale) {					
+				if(iw<w || ih<h)						
+					sRatio = Math.min(xRatio, yRatio);				
+			}				
+			else if(scaleType==1) {					
+				sRatio = Math.min(xRatio, yRatio);				
+			}				
+			else if(scaleType==2) {					
+				sRatio = Math.max(xRatio, yRatio);				
+			}			
+		}
+		domContainers[0].width = w * pRatio * sRatio;			
+		domContainers[0].height = h * pRatio * sRatio;
+		domContainers.forEach(function(container) {				
+			container.style.width = w * sRatio + 'px';				
+			container.style.height = h * sRatio + 'px';			
+		});
+		stage.scaleX = pRatio*sRatio;			
+		stage.scaleY = pRatio*sRatio;
+		lastW = iw; lastH = ih; lastS = sRatio;            
+		stage.tickOnUpdate = false;            
+		stage.update();            
+		stage.tickOnUpdate = true;		
+	}
+}
+an.handleSoundStreamOnTick = function(event) {
+	if(!event.paused){
+		var stageChild = stage.getChildAt(0);
+		if(!stageChild.paused || stageChild.ignorePause){
+			stageChild.syncStreamSounds();
+		}
+	}
+}
+an.handleFilterCache = function(event) {
+	if(!event.paused){
+		var target = event.target;
+		if(target){
+			if(target.filterCacheList){
+				for(var index = 0; index < target.filterCacheList.length ; index++){
+					var cacheInst = target.filterCacheList[index];
+					if((cacheInst.startFrame <= target.currentFrame) && (target.currentFrame <= cacheInst.endFrame)){
+						cacheInst.instance.cache(cacheInst.x, cacheInst.y, cacheInst.w, cacheInst.h);
+					}
+				}
+			}
+		}
+	}
+}
+
+
+})(createjs = createjs||{}, AdobeAn = AdobeAn||{});
+var createjs, AdobeAn;
